@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/sonarqube-master/buildSrc" name="buildSrc">
+                <projects>
+                  <project path="$PROJECT_DIR$/sonarqube-master/buildSrc" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sonarqube-master" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/sonarqube-master" />
+            <option value="$PROJECT_DIR$/sonarqube-master/buildSrc" />
+            <option value="$PROJECT_DIR$/sonarqube-master/plugins" />
+            <option value="$PROJECT_DIR$/sonarqube-master/plugins/sonar-education-plugin" />
+            <option value="$PROJECT_DIR$/sonarqube-master/plugins/sonar-xoo-plugin" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-alm-client" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-auth-bitbucket" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-auth-common" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-auth-github" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-auth-gitlab" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-auth-ldap" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-auth-saml" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-ce" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-ce-common" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-ce-task" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-ce-task-projectanalysis" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-db-core" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-db-dao" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-db-migration" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-main" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-process" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-server-common" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-telemetry" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-telemetry-core" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-api" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-auth" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-common" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-core" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-es" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-monitoring" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-pushapi" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-webapi" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-webapi-v2" />
+            <option value="$PROJECT_DIR$/sonarqube-master/server/sonar-webserver-ws" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-application" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-core" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-duplications" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-markdown" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-plugin-api-impl" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-sarif" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-scanner-engine" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-scanner-engine-shaded" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-scanner-protocol" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-shutdowner" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-testing-harness" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-testing-ldap" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-ws" />
+            <option value="$PROJECT_DIR$/sonarqube-master/sonar-ws-generator" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
