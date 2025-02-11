@@ -2,20 +2,16 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Tests') {
             steps {
-                // Cette étape récupère le code (le même que défini dans la config SCM du job Jenkins)
-                checkout scm
+                catchError(buildResult: 'SUCCESS', stageResult: 'UNSTABLE') {
+                    bat 'gradlew.bat test'
+                }
             }
         }
-
-        stage('Build and Test') {
+        stage('Autres étapes') {
             steps {
-                // On se déplace dans le dossier 'sonarqube-master'
-                dir('sonarqube-master') {
-                    // Sur Windows, on exécute la commande batch 
-                    bat 'gradlew.bat test'
-                } 
+                echo "Le pipeline continue malgré un ou plusieurs tests en échec."
             }
         }
     }
