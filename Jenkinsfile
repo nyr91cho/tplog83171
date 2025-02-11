@@ -14,8 +14,8 @@ pipeline {
                 // On se déplace dans le dossier 'sonarqube-master'
                 dir('sonarqube-master') {
                     // Sur Windows, on exécute la commande batch 
-                    bat 'gradlew.bat clean test'
-                }
+                    bat 'gradlew.bat test'
+                } 
             }
         }
     }
