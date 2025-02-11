@@ -1,3 +1,5 @@
+package org.sonar.core.extension;
+
 public class LicenseHeaderCheck {
 
     // On définit simplement les segments attendus (pour le test : "Licensed under ..." et "you may not use ...")
